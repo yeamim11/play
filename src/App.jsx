@@ -6,6 +6,7 @@ import Contacto from './Component/Contacto'
 import Banner from './Component/Banner'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Footer from './Component/Footer/Footer'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Inicio />
       <Tienda />
       <Contacto />
+      <Footer/>
     </div>
   )
 }
